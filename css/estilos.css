@@ -26,12 +26,12 @@ p {
   .quienes-somos .portada {
     width: 45%;
     height: 45%;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 50px; }
   .quienes-somos .quienes-somos-parrafo {
     font-family: "Montserrat", sans-serif;
-    margin-top: 150px;
-    margin-left: 75px;
+    margin-top: 135px;
+    margin-left: 50px;
     text-align: justify;
     padding: 30px; }
     .quienes-somos .quienes-somos-parrafo .quienes-somos-nombre-sitio {
@@ -100,7 +100,7 @@ footer {
         font-weight: bolder; }
 
 /* Mobile Styles */
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 415px) {
   .quienes-somos .portada {
     display: none; }
   .quienes-somos .quienes-somos-parrafo {
