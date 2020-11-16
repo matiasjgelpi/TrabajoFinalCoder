@@ -26,11 +26,11 @@ p {
   .quienes-somos .portada {
     width: 45%;
     height: 45%;
-    margin-top: 150px;
+    margin-top: 125px;
     margin-left: 50px; }
   .quienes-somos .quienes-somos-parrafo {
     font-family: "Montserrat", sans-serif;
-    margin-top: 135px;
+    margin-top: 150px;
     margin-left: 50px;
     text-align: justify;
     padding: 30px; }
@@ -130,11 +130,22 @@ footer {
 
 /* Tablet Style */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  .quienes-somos-parrafo {
+  .quienes-somos .quienes-somos-parrafo {
     margin-top: 125px;
     margin-left: 0px;
     text-align: justify;
     padding: 0px;
     font-size: 12px; }
-  .portada {
+  .quienes-somos .portada {
     margin-top: 150px; } }
+
+/* Laptop Style */
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+  .quienes-somos .quienes-somos-parrafo {
+    margin-top: 125px;
+    margin-left: 10px;
+    text-align: justify;
+    padding: 0px;
+    font-size: 15px; }
+  .quienes-somos .portada {
+    margin-top: 115px; } }
